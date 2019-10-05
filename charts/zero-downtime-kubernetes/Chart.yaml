@@ -1,9 +1,0 @@
----
-name: zero-downtime-kubernetes
-version: 1.0.0
-description: OTUS reddit application COMMENT-service homework
-maintainers:
-name: zero-downtime-kubernetes
-    email: etselikov@express42.com
-appVersion: 1.0
-...
