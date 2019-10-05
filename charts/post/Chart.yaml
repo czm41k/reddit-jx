@@ -1,9 +1,7 @@
----
-name: post
-version: 1.0.0
+appVersion: 1.0.12
 description: OTUS reddit application POST-service homework
 maintainers:
-  - name: czm41k
-    email: etselikov@express42.com
-appVersion: 1.0
-...
+- email: etselikov@express42.com
+  name: czm41k
+name: post
+version: 1.0.12
