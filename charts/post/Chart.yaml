@@ -1,11 +1,11 @@
 ---
 apiVersion: v1
-name: zero-downtime-kubernetes
+name: post
 version: 1.0.0
-description: OTUS reddit application COMMENT homework
+description: OTUS reddit application POST homework
 home: https://github.com/czm41k/helm-charts/
 maintainers:
-name: zero-downtime-kubernetes
+  - name: czm41k
     email: etselikov@express42.com
 appVersion: 1.0
 ...
