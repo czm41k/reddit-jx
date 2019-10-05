@@ -4,8 +4,8 @@ service:
   externalPort: 5000
 
 image:
-  repository: czm41k/post
-  tag: latest
+  repository: gcr.io/otusplatform-kubespray/reddit-jx
+  tag: 1.0.18
 
 databaseHost:
 ...
