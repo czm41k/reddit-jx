@@ -1,7 +1,15 @@
-buildPack: liberty
-buildPackGitURL: 'https://github.com/sdaschner/jenkins-x-kubernetes.git'
-buildPackGitRef: 'master'
-
+buildPack: helm
 pipelineConfig:
-  agent:
-    container: maven-java11
+  pipelines:
+    pullRequest:
+      build:
+        steps:
+          - dir: charts/reddit
+
+    release:
+      build:
+        steps:
+          - dir: charts/reddit
+      promote:
+        steps:
+          - dir: charts/reddit
