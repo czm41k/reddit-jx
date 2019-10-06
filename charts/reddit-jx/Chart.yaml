@@ -1,5 +1,4 @@
----
-name: reddit-jx
-version: 0.1.5
+appVersion: 1.0.24
 description: OTUS sample reddit application homework check
-...
+name: reddit-jx
+version: 1.0.24
