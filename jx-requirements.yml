@@ -1,11 +1,15 @@
 autoUpdate:
   enabled: false
   schedule: ""
-cluster: {}
+cluster:
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
 ingress:
   domain: ""
   externalDNS: false
-  namespaceSubDomain: ""
+  namespaceSubDomain: -jx.
   tls:
     email: ""
     enabled: false
